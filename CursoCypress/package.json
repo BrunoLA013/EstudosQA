@@ -1,0 +1,22 @@
+{
+  "name": "cursocypress",
+  "version": "1.0.0",
+  "description": "Projeto de estudos basedo no Alura cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoLA013/EstudosQA.git"
+  },
+  "author": "Bruno Lucas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrunoLA013/EstudosQA/issues"
+  },
+  "homepage": "https://github.com/BrunoLA013/EstudosQA#readme",
+  "devDependencies": {
+    "cypress": "^12.7.0"
+  }
+}
