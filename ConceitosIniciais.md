@@ -1,4 +1,7 @@
-# Oi pessoal!
+
+
+
+# Oi pessoal,!
 
 * Só queria compartilhar com vocês que estou mudando de área e me dedicando aos estudos em QA. Estou criando um repositório para documentar tudo o que estou aprendendo e, se isso puder ajudar alguém, fico super feliz! Mas, é importante lembrar que as informações que compartilho são baseadas em meus estudos e podem não ser perfeitas ou completas.
 

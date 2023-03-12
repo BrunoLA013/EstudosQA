@@ -11,26 +11,18 @@ Navegue até o diretório do projeto no terminal usando o comando cd.
 Digite o comando npm install para instalar as dependências do projeto, incluindo o Cypress.
 
 ## Como iniciar os testes usando o Cypress:
-Digite o comando npm run cypress:open para abrir a interface do Cypress.
-Selecione um arquivo de teste na interface do Cypress. Os arquivos de teste do Cypress têm a extensão .spec.js.
-O Cypress abrirá uma nova janela do navegador e executará o teste selecionado.
+* Digite o comando npm run cypress:open para abrir a interface do Cypress.
+Selecione um arquivo de teste na interface do Cypress. <br>Os arquivos de teste do Cypress têm a extensão .cy.js.
+O Cypress abrirá uma nova janela do navegador e executará o teste selecionado.<br>
 Se você quiser executar todos os seus testes de uma vez, você pode usar o comando npm run cypress:run no terminal em vez de npm run cypress:open. Isso executará todos os seus testes em segundo plano e fornecerá uma saída de linha de comando com o resultado dos testes.
 
-## Personalização do README
-Você pode personalizar o README adicionando mais informações sobre o projeto, como a descrição da aplicação que está sendo testada, exemplos de testes que foram escritos, etc.
-
-Para adicionar imagens, você pode fazer o upload da imagem para um serviço como o Imgur, e, em seguida, copiar o link direto da imagem e usá-lo no README.
-
-Para adicionar links, você pode usar a sintaxe [Alura](https://www.alura.com.br/)
 
 ## Mais recursos
 [Alura - Curso Cypress](https://cursos.alura.com.br/course/cypress-automacao-testes-e2e)<br>
 [Documentação do Cypress](https://docs.cypress.io/guides/overview/why-cypress)<br>
 [Repositório oficial do Cypress no GitHub](https://github.com/cypress-io/cypress)
 
-//## Tecnologia usada
 
-//[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
 
 ## Meus Cotato
 <div>
