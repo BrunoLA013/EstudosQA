@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Página com informações sobre QA">
-    <title>QA - Tudo que você precisa saber</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-</head>
-
-<body>
-    <header class="navbar navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">QA - Tudo que você precisa saber</a>
-        </div>
-    </header>
-
-    <main>
         <section class="container my-5">
             <h1>QA - Tudo que você precisa saber</h1>
             <p>A Quality Assurance (QA), ou garantia de qualidade, é um processo no desenvolvimento de software que tem
@@ -126,8 +105,3 @@
                 forma independente em projetos de média complexidade, mas também está apto a colaborar em projetos mais
                 complexos, sob a orientação de um QA Senior.</p>
         </section>
-
-    </main>
-</body>
-
-</html>
