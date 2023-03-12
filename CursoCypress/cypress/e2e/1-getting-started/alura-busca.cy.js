@@ -11,3 +11,4 @@ describe('alura busca cursos', () => {
         .should('have.text', 'Formação Certificação Java');
     })
 })
+    
