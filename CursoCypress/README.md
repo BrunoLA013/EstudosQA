@@ -1,29 +1,43 @@
-# EstudosQA
+## Projeto de Estudos - Cypress: Automação de testes E2E
+Este é um projeto de estudos baseado no curso da Alura "Cypress: Automação de testes E2E". O objetivo é aprender a usar a ferramenta Cypress para escrever testes automatizados de ponta a ponta (end-to-end ou E2E) em aplicações web.
 
-Este é um repositório criado para armazenar o meu roteiro de estudos, onde posso manter um registro organizado das minhas atividades de aprendizagem. Aqui, você encontrará uma lista completa das matérias que estou estudando e os recursos que estou usando para me aprimorar. Além disso, este repositório permite que eu mantenha um controle preciso do meu progresso e estabeleça metas para o meu desenvolvimento contínuo. Sinta-se à vontade para explorar e compartilhar suas próprias dicas e sugestões de aprendizado. Juntos, podemos crescer e melhorar como estudantes e desenvolvedores.
+## O que é E2E?
+End-to-end (E2E) é uma abordagem de testes de software que visa testar um fluxo de ponta a ponta em um sistema, simulando a interação do usuário com a aplicação. Ou seja, em vez de testar cada parte do sistema individualmente, os testes E2E verificam se todas as partes funcionam corretamente juntas, desde a entrada do usuário até a saída do sistema.
 
+##  Instalação do Cypress:
+Certifique-se de ter o Node.js instalado. Você pode verificar digitando o comando node -v no terminal. Se o Node.js não estiver instalado, você pode baixá-lo em https://nodejs.org/.
+Clone este repositório
+Navegue até o diretório do projeto no terminal usando o comando cd.
+Digite o comando npm install para instalar as dependências do projeto, incluindo o Cypress.
 
-## Meus Cotatos
-* [Instagra](https://www.instagram.com/brunolucas013/)
-* [Linkedin](www.linkedin.com/in/bruno-lucasQA)
+## Como iniciar os testes usando o Cypress:
+Digite o comando npm run cypress:open para abrir a interface do Cypress.
+Selecione um arquivo de teste na interface do Cypress. Os arquivos de teste do Cypress têm a extensão .spec.js.
+O Cypress abrirá uma nova janela do navegador e executará o teste selecionado.
+Se você quiser executar todos os seus testes de uma vez, você pode usar o comando npm run cypress:run no terminal em vez de npm run cypress:open. Isso executará todos os seus testes em segundo plano e fornecerá uma saída de linha de comando com o resultado dos testes.
 
-<div style="display: inline_block"><br>
-    <img align="center" alt="Rafa-Js" height="30" width="40"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-    <img align="center" alt="Rafa-Ts" height="30" width="40"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-    <img align="center" alt="Rafa-React" height="30" width="40"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-    <img align="center" alt="Rafa-HTML" height="30" width="40"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-    <img align="center" alt="Rafa-CSS" height="30" width="40"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-    <img align="center" alt="Rafa-Python" height="30" width="40"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-    <img align="center" alt="Rafa-Csharp" height="30" width="40"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
-    
+## Personalização do README
+Você pode personalizar o README adicionando mais informações sobre o projeto, como a descrição da aplicação que está sendo testada, exemplos de testes que foram escritos, etc.
+
+Para adicionar imagens, você pode fazer o upload da imagem para um serviço como o Imgur, e, em seguida, copiar o link direto da imagem e usá-lo no README.
+
+Para adicionar links, você pode usar a sintaxe [Alura](https://www.alura.com.br/)
+
+## Mais recursos
+[Alura - Curso Cypress](https://cursos.alura.com.br/course/cypress-automacao-testes-e2e)<br>
+[Documentação do Cypress](https://docs.cypress.io/guides/overview/why-cypress)<br>
+[Repositório oficial do Cypress no GitHub](https://github.com/cypress-io/cypress)
+
+//## Tecnologia usada
+
+//[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+
+## Meus Cotato
+<div>
+    <a href="https://www.instagram.com/brunolucas013/" target="_blank"><img
+            src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"
+            target="_blank"></a>
+    <a href="www.linkedin.com/in/bruno-lucasQA" target="_blank"><img
+            src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+            target="_blank"></a>
 </div>
-
-
-
