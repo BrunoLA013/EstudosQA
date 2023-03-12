@@ -1,0 +1,157 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-03-12T19:10:55.838Z",
+    "end": "2023-03-12T19:11:05.003Z",
+    "duration": 9165,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "36f6e123-1c17-44b1-81bf-541e344f8e83",
+      "title": "",
+      "fullFile": "cypress\\e2e\\3-alurapic\\aluraPic.cy.js",
+      "file": "cypress\\e2e\\3-alurapic\\aluraPic.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "041897b5-ee13-4343-a685-5e3a888e4c5d",
+          "title": "alura busca cursos",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verifica mensagem de validacao",
+              "fullTitle": "alura busca cursos Verifica mensagem de validacao",
+              "timedOut": null,
+              "duration": 2449,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('a', 'Register now').click();\ncy.contains('button', 'Register').click();\ncy.contains('ap-vmessage', 'Email is required!').should('be.visible');\ncy.contains('button', 'Register').click();\ncy.contains('ap-vmessage', 'Full name is required!').should('be.visible');\ncy.contains('ap-vmessage', 'User name is required!').should('be.visible');\ncy.contains('ap-vmessage', 'Password is required!').should('be.visible');",
+              "err": {},
+              "uuid": "7b9fca88-7ace-40e1-b857-212da4446d99",
+              "parentUUID": "041897b5-ee13-4343-a685-5e3a888e4c5d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verifica mensagem de email invalido",
+              "fullTitle": "alura busca cursos Verifica mensagem de email invalido",
+              "timedOut": null,
+              "duration": 1277,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('a', 'Register now').click();\ncy.contains('button', 'Register').click();\ncy.get('input[formcontrolname=\"email\"]').type('Bruno');\ncy.contains('ap-vmessage', 'Invalid e-mail').should('be.visible');",
+              "err": {},
+              "uuid": "532bf3ca-139f-435b-92a2-677f06985a82",
+              "parentUUID": "041897b5-ee13-4343-a685-5e3a888e4c5d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verifica mensagem de senha com menos de 8 caracteres",
+              "fullTitle": "alura busca cursos Verifica mensagem de senha com menos de 8 caracteres",
+              "timedOut": null,
+              "duration": 1336,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('a', 'Register now').click();\ncy.contains('button', 'Register').click();\ncy.get('input[formcontrolname=\"password\"]').type('123');\ncy.contains('button', 'Register').click();\ncy.contains('ap-vmessage', 'Mininum length is 8').should('be.visible');",
+              "err": {},
+              "uuid": "29d83734-5a24-4db1-aa3f-d30f80fc7e15",
+              "parentUUID": "041897b5-ee13-4343-a685-5e3a888e4c5d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verifica mensagem de usuario com letra maiuscula aprarece",
+              "fullTitle": "alura busca cursos Verifica mensagem de usuario com letra maiuscula aprarece",
+              "timedOut": null,
+              "duration": 1323,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('a', 'Register now').click();\ncy.contains('button', 'Register').click();\ncy.get('input[formcontrolname=\"userName\"]').type('Bruno');\ncy.contains('button', 'Register').click();\ncy.contains('ap-vmessage', 'Must be lower case').should('be.visible');",
+              "err": {},
+              "uuid": "7e35cb2f-8f10-466a-b778-20c06ee9c5ef",
+              "parentUUID": "041897b5-ee13-4343-a685-5e3a888e4c5d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7b9fca88-7ace-40e1-b857-212da4446d99",
+            "532bf3ca-139f-435b-92a2-677f06985a82",
+            "29d83734-5a24-4db1-aa3f-d30f80fc7e15",
+            "7e35cb2f-8f10-466a-b778-20c06ee9c5ef"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6385,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}

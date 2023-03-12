@@ -1,0 +1,32 @@
+[
+    {
+        "email": "tony.hawk@example.com",
+        "name": "Tony Hawk",
+        "usuario": "tonyhawk",
+        "senha": "abc123def456"
+    },
+    {
+        "email": "nyjah.huston@example.com",
+        "name": "Nyjah Huston",
+        "usuario": "nyjahhuston",
+        "senha": "xyz789klm012"
+    },
+    {
+        "email": "rodney.mullen@example.com",
+        "name": "Rodney Mullen",
+        "usuario": "rodneymullen",
+        "senha": "pqr345stu678"
+    },
+    {
+        "email": "leticia.bufoni@example.com",
+        "name": "Leticia Bufoni",
+        "usuario": "leticiabufoni",
+        "senha": "qwerty12"
+    },
+    {
+        "email": "bob.burnquist@example.com",
+        "name": "Bob Burnquist",
+        "usuario": "bobburnquist",
+        "senha": "asdfg1234"
+    }
+]
