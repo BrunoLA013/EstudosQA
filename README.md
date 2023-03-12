@@ -1,29 +1,133 @@
-# EstudosQA
+<!DOCTYPE html>
+<html lang="pt-br">
 
-Este é um repositório criado para armazenar o meu roteiro de estudos, onde posso manter um registro organizado das minhas atividades de aprendizagem. Aqui, você encontrará uma lista completa das matérias que estou estudando e os recursos que estou usando para me aprimorar. Além disso, este repositório permite que eu mantenha um controle preciso do meu progresso e estabeleça metas para o meu desenvolvimento contínuo. Sinta-se à vontade para explorar e compartilhar suas próprias dicas e sugestões de aprendizado. Juntos, podemos crescer e melhorar como estudantes e desenvolvedores.
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página com informações sobre QA">
+    <title>QA - Tudo que você precisa saber</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
 
+<body>
+    <header class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">QA - Tudo que você precisa saber</a>
+        </div>
+    </header>
 
-## Meus Cotatos
-* [Instagra](https://www.instagram.com/brunolucas013/)
-* [Linkedin](www.linkedin.com/in/bruno-lucasQA)
+    <main>
+        <section class="container my-5">
+            <h1>QA - Tudo que você precisa saber</h1>
+            <p>A Quality Assurance (QA), ou garantia de qualidade, é um processo no desenvolvimento de software que tem
+                como objetivo garantir que o produto seja entregue respeitando as qualidades pretendidas pelo cliente,
+                evitando que o usuário final receba um produto com problemas ou erros em sua execução.</p>
+            <p>O profissional de QA deve realizar uma série de testes durante o processo de desenvolvimento para
+                garantir que o produto final atenda às expectativas e requisitos do cliente. É essencial que o Analista
+                de Qualidade monitore cada fase do desenvolvimento do software para assegurar que os resultados
+                esperados sejam cumpridos. Suas responsabilidades incluem criar planos de teste, rastrear bugs,
+                desenvolver padrões de qualidade e identificar possíveis problemas para o usuário final.</p>
+        </section>
 
-<div style="display: inline_block"><br>
-    <img align="center" alt="Rafa-Js" height="30" width="40"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-    <img align="center" alt="Rafa-Ts" height="30" width="40"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-    <img align="center" alt="Rafa-React" height="30" width="40"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-    <img align="center" alt="Rafa-HTML" height="30" width="40"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-    <img align="center" alt="Rafa-CSS" height="30" width="40"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-    <img align="center" alt="Rafa-Python" height="30" width="40"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-    <img align="center" alt="Rafa-Csharp" height="30" width="40"
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
-    
-</div>
+        <section class="container my-5">
+            <h2>Tipos de Testes</h2>
+            <ul>
+                <li>Teste Unitário</li>
+                <li>Teste de Integração</li>
+                <li>Teste de Regressão</li>
+                <li>Teste Funcional</li>
+                <li>Teste de Performance</li>
+                <li>Teste de Segurança</li>
+            </ul>
+        </section>
 
+        <section class="container my-5">
+            <h2>Habilidades de um QA</h2>
+            <ul>
+                <li>Conhecimento em programação</li>
+                <li>Conhecimento em bancos de dados</li>
+                <li>Conhecimento em ferramentas de automação de testes</li>
+                <li>Conhecimento em metodologias ágeis</li>
+                <li>Boa comunicação e habilidades interpessoais</li>
+                <li>Atenção aos detalhes</li>
+                <li>Capacidade de identificar e resolver problemas</li>
+                <li>Habilidade de documentar e relatar problemas encontrados</li>
+                <li>Capacidade de trabalhar em equipe</li>
+            </ul>
+        </section>
 
+        <section class="container my-5">
+            <h2>Ferramentas de Teste</h2>
+            <ul>
+                <li>Selenium</li>
+                <li>Appium</li>
+                <li>TestNG</li>
+                <li>Jasmine</li>
+                <li>Cypress</li>
+                <li>JUnit</li>
+                <li>Postman</li>
+                <li>LoadRunner</li>
+                <li>Gatling</li>
+                <li>Robot Framework</li>
+                <li>Katalon Studio</li>
+                <li>SoapUI</li>
+            </ul>
+        </section>
+        <section class="container my-5">
+            <h3>Tipos de Testes</h3>
+            <p>Existem diversos tipos de testes que podem ser realizados por
+                um QA para garantir a qualidade de um software, tais como:</p>
+            <ul>
+                <li>Testes unitários: testes realizados em partes isoladas do código para garantir que cada unidade
+                    funcione corretamente.</li>
+                <li>Testes de integração: testes realizados para garantir que as diferentes partes do sistema
+                    funcionem corretamente juntas.</li>
+                <li>Testes funcionais: testes realizados para garantir que o software atenda aos requisitos
+                    funcionais especificados.</li>
+                <li>Testes de performance: testes realizados para avaliar o desempenho do sistema em diferentes
+                    situações de carga.</li>
+                <li>Testes de segurança: testes realizados para avaliar a segurança do sistema e identificar
+                    possíveis vulnerabilidades.</li>
+                <li>Testes de usabilidade: testes realizados para avaliar a facilidade de uso e a experiência do
+                    usuário.</li>
+            </ul>
+        </section>
 
+        <section class="container my-5">
+            <h3>Ferramentas de Teste</h3>
+            <p>Existem diversas ferramentas disponíveis para auxiliar o QA nos
+                testes de um software. Algumas das principais são:</p>
+            <ul>
+                <li>Selenium: uma ferramenta para automação de testes web.</li>
+                <li>JMeter: uma ferramenta para testes de performance.</li>
+                <li>Postman: uma ferramenta para testes de API.</li>
+                <li>JUnit: uma ferramenta para testes unitários em Java.</li>
+                <li>TestComplete: uma ferramenta para testes de software em geral.</li>
+            </ul>
+        </section>
+        <section class="container my-5">
+            <h3>Diferença entre QA Junior, Senior e Pleno</h3>
+            <h2>QA Junior</h2>
+            <p>O QA Junior é um profissional que está iniciando a sua carreira na área de qualidade de software.
+                Geralmente, ele possui conhecimento básico em testes de software e em ferramentas de automação de
+                testes. O QA Junior trabalha sob supervisão e orientação de profissionais mais experientes, e é
+                responsável por realizar testes simples e documentar os resultados obtidos.</p>
+            <h2>QA Senior</h2>
+            <p>O QA Senior é um profissional experiente na área de qualidade de software. Ele possui um conhecimento
+                amplo em testes de software e em ferramentas de automação de testes. O QA Senior é responsável por
+                liderar a equipe de QA, desenvolver planos de testes complexos, identificar riscos e possíveis problemas
+                no processo de desenvolvimento, e orientar os profissionais mais juniores.</p>
+            <h2>QA Pleno</h2>
+            <p>O QA Pleno é um profissional que está entre o nível júnior e sênior, possuindo um conhecimento
+                intermediário em testes de software e em ferramentas de automação de testes. Ele é capaz de trabalhar de
+                forma independente em projetos de média complexidade, mas também está apto a colaborar em projetos mais
+                complexos, sob a orientação de um QA Senior.</p>
+        </section>
+
+    </main>
+</body>
+
+</html>
