@@ -1,3 +1,32 @@
 cypress.env.json
-
 node_modules/
+
+/node_modules
+/s3/assets/*
+/s3/assets/mix-manifest.json
+/wp-content/themes/s3/node_modules
+/wp-content/themes/s3/assets/*
+/wp-content/themes/s3/.phpunit.result.cache
+/wp-content/themes/s3/npm-debug.log
+/wp-content/themes/s3/yarn-error.log
+/wp-content/themes/s3/.idea
+/wp-content/themes/s3/.vscode
+assets/*
+.phpunit.result.cache
+npm-debug.log
+yarn-error.log
+supervisord.log
+supervisord.pid
+mix-manifest.json
+/.idea
+.idea
+.vscode
+.DS_Store
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+.htaccess
+package-lock.json
+assets/mix-manifest.json
